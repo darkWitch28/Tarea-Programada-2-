@@ -28,3 +28,21 @@ C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Business\obj\Debug\AP.Busin.DCD8A883.Up2Date
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Business\obj\Debug\AP.Business.dll
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Business\obj\Debug\AP.Business.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\obj\Debug\AP.Business.csproj.AssemblyReference.cache
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\obj\Debug\AP.Business.csproj.CoreCompileInputs.cache
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\obj\Debug\AP.Business.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\obj\Debug\AP.Business.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Business.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Business.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Data.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Repository.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\EntityFramework.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Data.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Data.dll.config
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Repository.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Repository.dll.config
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\EntityFramework.xml
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\obj\Debug\AP.Busin.DCD8A883.Up2Date
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\AP.Business.dll.config
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Business\bin\Debug\EntityFramework.SqlServer.xml

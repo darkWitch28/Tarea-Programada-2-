@@ -1,0 +1,17 @@
+﻿@model AP.Data.UserRole
+@{ ViewBag.Title = "Editar UserRole"; }
+
+<h2>Editar UserRole</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.UserId)
+    @Html.HiddenFor(m => m.RoleId)
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description)
+        @Html.EditorFor(m => m.Description, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-default" })
+}
