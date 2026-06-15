@@ -127,7 +127,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\FoodItemsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,6 +186,12 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\FoodItems\Index.cshtml" />
+    <Content Include="Views\Users\Create.cshtml" />
+    <Content Include="Views\Users\Delete.cshtml" />
+    <Content Include="Views\Users\Details.cshtml" />
+    <Content Include="Views\Users\Edit.cshtml" />
+    <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Supplier\Create.cshtml" />
     <Content Include="Views\Supplier\Delete.cshtml" />
     <Content Include="Views\Supplier\Details.cshtml" />
@@ -225,6 +233,10 @@
     <ProjectReference Include="..\AP.Business\AP.Business.csproj">
       <Project>{8777f1db-2fb9-4e02-a5b5-e37095f1d18c}</Project>
       <Name>AP.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AP.Data\AP.Data.csproj">
+      <Project>{60e44c1b-5a7c-459f-ba7c-71807102e198}</Project>
+      <Name>AP.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

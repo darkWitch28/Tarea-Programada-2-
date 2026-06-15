@@ -45,10 +45,19 @@ namespace AP.Business
 
         public IEnumerable<FoodItem> SearchProducts(string criteria, string field)
         {
-            // language integrated query (LINQ) to filter products based on the specified field and criteria
             var products = GetFoodItems(id: 0);
             switch (field)
             {
+                case "Fruit":
+                    return products.Where(p => p.Category == "Fruit");
+                case "LowStockPerishable":
+                    return products.Where(p =>
+                        p.IsPerishable == true &&
+                        (p.QuantityInStock ?? 0) < 10);
+                case "Premium":
+                    return products.Where(p =>
+                        p.Price > 20 &&
+                        (p.CaloriesPerServing ?? 0) > 300);
                 case "Name":
                     return products.Where(p => p.Name.ToLower().Contains(criteria.ToLower()));
                 case "Description":
