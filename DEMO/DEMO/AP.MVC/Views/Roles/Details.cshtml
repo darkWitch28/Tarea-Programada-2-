@@ -1,0 +1,26 @@
+@model AP.Data.Role
+
+@{
+    ViewBag.Title = "Role Details";
+}
+
+<h2>Role Details</h2>
+
+<div>
+    <h4>Role</h4>
+    <hr />
+
+    <dl class="dl-horizontal">
+        <dt>Role Name</dt>
+        <dd>@Html.DisplayFor(model => model.RoleName)</dd>
+
+        <dt>Description</dt>
+        <dd>@Html.DisplayFor(model => model.Description)</dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.RoleId }, new { @class = "btn btn-warning" })
+
+    @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-secondary" })
+</p>
