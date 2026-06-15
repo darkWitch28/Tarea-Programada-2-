@@ -1,0 +1,16 @@
+﻿@model AP.Data.UserRole
+@{ ViewBag.Title = "Detalles UserRole"; }
+
+<h2>Detalles</h2>
+<dl class="dl-horizontal">
+    <dt>Usuario</dt>
+    <dd>@Model.UserId - @(Model.User != null ? Model.User.Username : "")</dd>
+
+    <dt>Rol</dt>
+    <dd>@Model.RoleId - @(Model.Role != null ? Model.Role.RoleName : "")</dd>
+
+    <dt>Descripción</dt>
+    <dd>@Model.Description</dd>
+</dl>
+
+@Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-default" })

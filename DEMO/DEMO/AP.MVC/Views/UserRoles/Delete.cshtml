@@ -1,0 +1,19 @@
+﻿@model AP.Data.UserRole
+@{ ViewBag.Title = "Eliminar UserRole"; }
+
+<h2>¿Eliminar este UserRole?</h2>
+<dl class="dl-horizontal">
+    <dt>User ID</dt>
+    <dd>@Model.UserId</dd>
+    <dt>Role ID</dt>
+    <dd>@Model.RoleId</dd>
+    <dt>Descripción</dt>
+    <dd>@Model.Description</dd>
+</dl>
+
+@using (Html.BeginForm("Delete", "UserRoles", new { userId = Model.UserId, roleId = Model.RoleId }, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-default" })
+}

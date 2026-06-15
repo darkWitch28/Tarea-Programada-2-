@@ -66,9 +66,27 @@ namespace AP.Business
                     return products.Where(p => p.Category.ToLower() != criteria.ToLower());
                 case "Brand":
                     return products.Where(p => p.Brand.ToLower() != criteria.ToLower());
+                case "Top10Caros":
+                    return GetTop10MostExpensive();
+
+                case "MenorStock":
+                    return GetOrderedByLowestStock();
                 default:
                     return new List<FoodItem>();
             }
+        }
+
+        public IEnumerable<FoodItem> GetTop10MostExpensive()
+        {
+            return _foodItemRepository.GetAll()
+                .OrderByDescending(f => f.Price)
+                .Take(10);
+        }
+
+        public IEnumerable<FoodItem> GetOrderedByLowestStock()
+        {
+            return _foodItemRepository.GetAll()
+                .OrderBy(f => f.QuantityInStock);
         }
     }
 }

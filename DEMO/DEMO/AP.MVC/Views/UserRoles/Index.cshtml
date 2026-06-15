@@ -1,0 +1,27 @@
+﻿@model IEnumerable<AP.Data.UserRole>
+@{ ViewBag.Title = "User Roles"; }
+
+<h2>User Roles</h2>
+<p>@Html.ActionLink("Crear nuevo", "Create")</p>
+
+<table class="table table-striped">
+    <tr>
+        <th>Usuario</th>
+        <th>Rol</th>
+        <th>Descripción</th>
+        <th>Acciones</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@(item.User != null ? item.User.Username : item.UserId.ToString())</td>
+            <td>@(item.Role != null ? item.Role.RoleName : item.RoleId.ToString())</td>
+            <td>@item.Description</td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { userId = item.UserId, roleId = item.RoleId }) |
+                @Html.ActionLink("Detalles", "Details", new { userId = item.UserId, roleId = item.RoleId }) |
+                @Html.ActionLink("Eliminar", "Delete", new { userId = item.UserId, roleId = item.RoleId })
+            </td>
+        </tr>
+    }
+</table>

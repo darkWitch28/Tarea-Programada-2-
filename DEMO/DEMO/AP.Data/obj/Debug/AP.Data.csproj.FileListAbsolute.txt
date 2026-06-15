@@ -10,3 +10,15 @@ C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.csproj.Up2Date
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.dll
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\bin\Debug\AP.Data.dll.config
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\bin\Debug\AP.Data.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\bin\Debug\AP.Data.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\bin\Debug\EntityFramework.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\bin\Debug\EntityFramework.xml
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.csproj.AssemblyReference.cache
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.csproj.CoreCompileInputs.cache
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.csproj.Up2Date
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Data\obj\Debug\AP.Data.pdb

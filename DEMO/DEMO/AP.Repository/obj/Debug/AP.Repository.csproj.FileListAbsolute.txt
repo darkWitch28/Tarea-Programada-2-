@@ -28,3 +28,18 @@ C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repos.D7DF62A9.Up2Date
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repository.dll
 C:\Users\XSF\Documents\Universidad\Programacion Avanzada\Proyectos\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repository.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\AP.Repository.dll.config
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\AP.Repository.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\AP.Repository.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\AP.Data.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\EntityFramework.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\AP.Data.pdb
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\AP.Data.dll.config
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\EntityFramework.xml
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repository.csproj.AssemblyReference.cache
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repository.csproj.CoreCompileInputs.cache
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repos.D7DF62A9.Up2Date
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repository.dll
+C:\Universidad\IIC 2026\Programación avanzada\practica programada\Tarea-Programada-2-\DEMO\DEMO\AP.Repository\obj\Debug\AP.Repository.pdb
