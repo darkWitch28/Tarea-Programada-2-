@@ -1,0 +1,43 @@
+@model IEnumerable<AP.Data.Role>
+
+@{
+    ViewBag.Title = "Roles";
+}
+
+<h2>Roles</h2>
+
+<p>
+    @Html.ActionLink("Nuevo Rol", "Create", null, new { @class = "btn btn-success" })
+</p>
+
+
+<table class="table">
+    <tr>
+        <th>Role Name</th>
+        <th>Description</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.RoleName)</td>
+            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.RoleId }, new { @class = "btn btn-warning btn-sm" })
+
+                @Html.ActionLink("Ver", "Details", new { id = item.RoleId }, new { @class = "btn btn-info btn-sm" })
+
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.RoleId }, new { @class = "btn btn-danger btn-sm" })
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+
+
+
+
+
