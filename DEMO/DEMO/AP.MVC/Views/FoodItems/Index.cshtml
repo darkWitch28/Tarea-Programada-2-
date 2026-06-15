@@ -1,0 +1,53 @@
+@model IEnumerable<AP.Data.FoodItem>
+
+@{
+    ViewBag.Title = "Food Items";
+    var currentFilter = ViewBag.CurrentFilter as string ?? "All";
+    var filters = new List<SelectListItem>
+    {
+        new SelectListItem { Text = "Todos los productos", Value = "All", Selected = currentFilter == "All" },
+        new SelectListItem { Text = "Categor\u00eda Fruit", Value = "Fruit", Selected = currentFilter == "Fruit" },
+        new SelectListItem { Text = "Perecederos con menos de 10 unidades", Value = "LowStockPerishable", Selected = currentFilter == "LowStockPerishable" },
+        new SelectListItem { Text = "Productos Premium (Precio > $20 y > 300 calor\u00edas)", Value = "Premium", Selected = currentFilter == "Premium" }
+    };
+}
+
+<h2>Food Items</h2>
+
+@using (Html.BeginForm("Index", "FoodItems", FormMethod.Get, new { @class = "row g-3 align-items-end mb-4" }))
+{
+    <div class="col-auto">
+        <label for="filter" class="form-label">Filtrar productos</label>
+        @Html.DropDownList("filter", filters, new { @class = "form-select", id = "filter" })
+    </div>
+    <div class="col-auto">
+        <input type="submit" value="Aplicar filtro" class="btn btn-primary" />
+    </div>
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>Nombre</th>
+        <th>Categor&iacute;a</th>
+        <th>Marca</th>
+        <th>Precio</th>
+        <th>Stock</th>
+        <th>Perecedero</th>
+        <th>Calor&iacute;as</th>
+        <th>Proveedor</th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>@item.Category</td>
+        <td>@item.Brand</td>
+        <td>@item.Price.ToString("C")</td>
+        <td>@item.QuantityInStock</td>
+        <td>@(item.IsPerishable == true ? "Si" : "No")</td>
+        <td>@item.CaloriesPerServing</td>
+        <td>@item.Supplier</td>
+    </tr>
+}
+</table>
